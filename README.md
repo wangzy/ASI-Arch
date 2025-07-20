@@ -4,9 +4,9 @@ This is the official repository for our work "AlphaGo Moment for Model Architect
 
 ## 📝 Introduction
 
-Our framework represents a paradigm shift from traditional Neural Architecture Search (NAS) to autonomous AI research. Unlike conventional NAS methods that are limited to exploring human-defined search spaces, our framework enables AI to conduct genuine scientific discovery by autonomously hypothesizing novel architectural concepts, implementing them as code, and empirically validating their performance.
+ASI-Arch represents a paradigm shift from traditional Neural Architecture Search (NAS) to autonomous AI research. Unlike conventional NAS methods that are limited to exploring human-defined search spaces, ASI-Arch enables AI to conduct genuine scientific discovery by autonomously hypothesizing novel architectural concepts, implementing them as code, and empirically validating their performance.
 
-The system employs a multi-agent framework where specialized AI agents work collaboratively to evolve neural network architectures through systematic experimentation, performance analysis, and iterative improvement. Our framework has successfully discovered **106 novel, state-of-the-art linear attention architectures** through 1,773 autonomous experiments over 20,000 GPU hours, demonstrating that AI can autonomously generate world-class scientific knowledge.
+The system employs a multi-agent framework where specialized AI agents work collaboratively to evolve neural network architectures through systematic experimentation, performance analysis, and iterative improvement. ASI-Arch has successfully discovered **106 novel, state-of-the-art linear attention architectures** through 1,773 autonomous experiments over 20,000 GPU hours, demonstrating that AI can autonomously generate world-class scientific knowledge.
 
 ![Pipeline Overview](images/new_pipeline.pdf)
 
@@ -20,7 +20,7 @@ The system employs a multi-agent framework where specialized AI agents work coll
 
 ## 🏆 Performance
 
-Our framework has successfully demonstrated autonomous architecture discovery capabilities:
+ASI-Arch has successfully demonstrated autonomous architecture discovery capabilities:
 
 ### Discovery Statistics
 - **1,773 autonomous experiments** conducted over 20,000 GPU hours
@@ -28,23 +28,6 @@ Our framework has successfully demonstrated autonomous architecture discovery ca
 - **Linear scaling** relationship between compute budget and architecture discovery rate
 - **Two-stage validation** from 20M to 340M parameter models
 
-### Top-5 Discovered Architectures
-Our final verification included 5 top-performing architectures trained on 15B tokens at 340M parameters:
-
-| Architecture | Key Innovation | Performance Gain |
-|-------------|----------------|------------------|
-| **FusionGatedFIRNet** | Hierarchical two-stage routing with path-aware gating | Outperforms DeltaNet baseline |
-| **ContentSharpRouter** | Content-aware gating with learnable temperature control | Superior benchmark performance |
-| **PathGateFusionNet** | Parallel sigmoid fusion replacing softmax constraints | Enhanced context modeling |
-| **HierGateNet** | Dynamic floors preventing pathway collapse | Improved long-range reasoning |
-| **AdaMultiPathGateNet** | Unified token-level control with entropy regularization | Optimal path diversity |
-
-### Evaluation Benchmarks
-The system evaluates architectures across diverse cognitive domains:
-- **Reasoning**: ARC Challenge/Easy, HellaSwag, Physical IQA, Social IQA, Winogrande
-- **Language Understanding**: BoolQ, OpenBookQA, SQuAD
-- **Memory & Context**: LAMBADA sequence modeling
-- **Specialized Tasks**: FDA, SWDE structured data extraction
 
 ![Performance Analysis](images/combined_trend_analysis.pdf)
 
@@ -62,10 +45,10 @@ The system evaluates architectures across diverse cognitive domains:
 ### Installation
 
 ```bash
-git clone https://github.com/GAIR-NLP/AlphaGo-Moment-Architecture-Discovery.git
-cd AlphaGo-Moment-Architecture-Discovery
-conda create -n alphago-arch python=3.10
-conda activate alphago-arch
+git clone https://github.com/GAIR-NLP/ASI-Arch.git
+cd ASI-Arch
+conda create -n asi-arch python=3.10
+conda activate asi-arch
 pip install -r requirements.txt
 ```
 
@@ -91,8 +74,6 @@ chmod +x start_api.sh
 2. **Configure Framework**:
 ```bash
 cd agent
-# Edit config.py with your database URL
-# DATABASE: "http://localhost:8000"
 ```
 
 ### Running Architecture Discovery
@@ -112,18 +93,7 @@ The pipeline automatically:
 
 ## 🙏 Acknowledgement
 
-Our work builds upon foundational research in neural architecture search, linear attention mechanisms, and multi-agent AI systems. We acknowledge contributions from the research communities working on:
-
-- Neural Architecture Search (NAS) and evolutionary algorithms
-- Linear attention mechanisms and efficient Transformers
-- Multi-agent AI frameworks and LLM-based code generation
-- Automated machine learning and program synthesis
-
-We especially thank the developers and maintainers of the key tools and frameworks that made this research possible:
-
-- **FLAME Framework**: For providing the efficient training infrastructure and AdamW optimization with warmup-stabilize-decay learning rate schedules
-- **LM-Evaluation-Harness**: EleutherAI's standardized evaluation framework that enabled consistent and reproducible benchmark assessments across all discovered architectures
-- **Flash Linear Attention (FLA)**: For the foundational linear attention implementations and efficient computation kernels that supported our architecture explorations
+ASI-Arch is inspired by various open-source projects with its implementation based on [FLAME](https://github.com/fla-org/flame), [LM-Evaluation-Harness](https://github.com/EleutherAI/lm-evaluation-harness) and [Flash Linear Attention (FLA)](https://github.com/sustcsonglin/flash-linear-attention). We deeply appreciate the contributions of these teams to open-source research and development.
 
 ## ✍️ Citation
 
