@@ -8,7 +8,7 @@ ASI-Arch represents a paradigm shift from traditional Neural Architecture Search
 
 The system employs a multi-agent framework where specialized AI agents work collaboratively to evolve neural network architectures through systematic experimentation, performance analysis, and iterative improvement. ASI-Arch has successfully discovered **106 novel, state-of-the-art linear attention architectures** through 1,773 autonomous experiments over 20,000 GPU hours, demonstrating that AI can autonomously generate world-class scientific knowledge.
 
-![Pipeline Overview](images/new_pipeline.pdf)
+![Pipeline Overview](images/new_pipeline.png)
 
 ## 📋 Table of Contents
 
@@ -29,9 +29,9 @@ ASI-Arch has successfully demonstrated autonomous architecture discovery capabil
 - **Two-stage validation** from 20M to 340M parameter models
 
 
-![Performance Analysis](images/combined_trend_analysis.pdf)
+![Performance Analysis](images/combined_trend_analysis.png)
 
-![Architecture Preferences](images/preference.pdf)
+![Architecture Preferences](images/preference.png)
 
 ## 🚀 Get Started
 
