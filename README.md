@@ -31,7 +31,7 @@ ASI-Arch has successfully demonstrated autonomous architecture discovery capabil
 
 ![Performance Analysis](images/combined_trend_analysis.png)
 
-![Architecture Preferences](images/preference.png)
+![Architecture Preferences](images/preference.jpg)
 
 ## 🚀 Get Started
 
