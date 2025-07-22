@@ -30,7 +30,7 @@ MongoDB-based cloud service storing all historical experimental data and enablin
 MongoDB-powered knowledge repository providing relevant paper cognitions and research insights to guide the autonomous research process.
 
 <p align="center">
-  <img src="./images/new_pipeline.png" alt="ASI-Arch Framework" width="600"/>
+  <img src="./images/pipeline.png" alt="ASI-Arch Framework" width="600"/>
   <br>
   <em>
     Figure 1: ASI-Arch autonomous research framework demonstrating AI's capability to <br> 
