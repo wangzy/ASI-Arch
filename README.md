@@ -1,6 +1,6 @@
 <p align="center">
 <!--  <img src="logo.png" style="height: 80px;"> -->
- <h1 align="center">AlphaGo Moment for Model Architecture Discovery</h1>
+ <h1 align="center"><a href="https://github.com/GAIR-NLP/ASI-Arch/blob/main/resources/ASI-Arch.pdf">AlphaGo Moment for Model Architecture Discovery</a></h1>
 </p>
 <p align="center">
  <a href="https://github.com/GAIR-NLP/ASI-Arch/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/GAIR-NLP/ASI-Arch"></a>
@@ -178,11 +178,5 @@ ASI-Arch is inspired by various open-source projects with its implementation bas
 Please cite this work if it contributes to your research:
 
 ```bibtex
-@article{liu2025alphago_moment,
-  title={AlphaGo Moment for Model Architecture Discovery},
-  author={Liu, Yixiu and Nan, Yang and Xu, Weixian and Hu, Xiangkun and Qin, Zhen and Liu, Pengfei},
-  journal={arXiv preprint},
-  year={2025},
-  note={Framework for autonomous neural architecture discovery in linear attention}
-}
+
 ``` 
