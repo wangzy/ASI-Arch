@@ -1,6 +1,6 @@
 <p align="center">
 <!--  <img src="logo.png" style="height: 80px;"> -->
- <h1 align="center">[AlphaGo Moment for Model Architecture Discovery](https://github.com/GAIR-NLP/ASI-Arch/blob/main/resources/ASI-Arch.pdf)</h1>
+ <h1 align="center">AlphaGo Moment for Model Architecture Discovery</h1>
 </p>
 <p align="center">
  <a href="https://github.com/GAIR-NLP/ASI-Arch/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/GAIR-NLP/ASI-Arch"></a>
@@ -15,7 +15,7 @@
 
 ## 📋 Overview
 
-This is the official repository for our work "AlphaGo Moment for Model Architecture Discovery". We present a highly autonomous, multi-agent framework that empowers a Large Language Model (LLM) to conduct end-to-end scientific research in the challenging domain of linear attention mechanisms.
+This is the official repository for our work "[AlphaGo Moment for Model Architecture Discovery](https://github.com/GAIR-NLP/ASI-Arch/blob/main/resources/ASI-Arch.pdf)". We present a highly autonomous, multi-agent framework that empowers a Large Language Model (LLM) to conduct end-to-end scientific research in the challenging domain of linear attention mechanisms.
 
 
 - 📖 **Paper**: Read our paper (Coming Soon)
