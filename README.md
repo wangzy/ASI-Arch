@@ -1,6 +1,6 @@
 <p align="center">
 <!--  <img src="logo.png" style="height: 80px;"> -->
- <h1 align="center"><a href="https://github.com/GAIR-NLP/ASI-Arch/blob/main/resources/ASI-Arch.pdf">AlphaGo Moment for Model Architecture Discovery</a></h1>
+ <h1 align="center">[AlphaGo Moment for Model Architecture Discovery](https://github.com/GAIR-NLP/ASI-Arch/blob/main/resources/ASI-Arch.pdf)</h1>
 </p>
 <p align="center">
  <a href="https://github.com/GAIR-NLP/ASI-Arch/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/GAIR-NLP/ASI-Arch"></a>
