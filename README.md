@@ -50,7 +50,7 @@ Our system demonstrates **continuous optimization capability**, consistently imp
 *Performance indicators showing steady improvement in benchmark scores and consistent reduction in loss values, with composite fitness scores demonstrating rapid initial improvement followed by gradual plateau.*
 
 ![Architecture Exploration](images/Alpha_and_ASI.png)
-*Phylogenetic tree showing evolutionary relationships among 1,773 explored architectures, with colors indicating performance scores from low (red) to high (blue).*
+<!-- *Phylogenetic tree showing evolutionary relationships among 1,773 explored architectures, with colors indicating performance scores from low (red) to high (blue).* -->
 
 ## 📋 Table of Contents
 
