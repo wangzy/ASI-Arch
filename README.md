@@ -1,12 +1,16 @@
 <p align="center">
 <!--  <img src="logo.png" style="height: 80px;"> -->
- <h2 align="center">AlphaGo Moment for Model Architecture Discovery</h2>
+ <h1 align="center">AlphaGo Moment for Model Architecture Discovery</h1>
 </p>
 <p align="center">
  <a href="https://github.com/GAIR-NLP/ASI-Arch/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/GAIR-NLP/ASI-Arch"></a>
  <a href="#"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-red"></a>
  <a href="https://github.com/GAIR-NLP/ASI-Arch"></a>
  <a href="#"><img alt="Architectures" src="https://img.shields.io/badge/🔬-106_Architectures-blue"></a>
+</p>
+
+<p align="center">
+  <img src="./images/scaling.png" alt="ASI-Arch Main Results" width="1000"/>
 </p>
 
 ## 📋 Overview
