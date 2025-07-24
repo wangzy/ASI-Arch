@@ -6,7 +6,7 @@
  <a href="https://github.com/GAIR-NLP/ASI-Arch/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/GAIR-NLP/ASI-Arch"></a>
  <a href="https://github.com/GAIR-NLP/ASI-Arch/blob/main/resources/ASI-Arch.pdf"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-red"></a>
  <a href="https://github.com/GAIR-NLP/ASI-Arch"></a>
- <a href="#"><img alt="Architectures" src="https://img.shields.io/badge/🔬-106_Architectures-blue"></a>
+ <a href="https://gair-nlp.github.io/ASI-Arch/"><img alt="Architectures" src="https://img.shields.io/badge/🔬-106_Architectures-blue"></a>
 </p>
 
 <p align="center">
