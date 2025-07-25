@@ -4,7 +4,7 @@
 </p>
 <p align="center">
  <a href="https://github.com/GAIR-NLP/ASI-Arch/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/GAIR-NLP/ASI-Arch"></a>
- <a href="https://github.com/GAIR-NLP/ASI-Arch/blob/main/resources/ASI-Arch.pdf"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-red"></a>
+ <a href="https://arxiv.org/pdf/2507.18074"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-red"></a>
  <a href="https://github.com/GAIR-NLP/ASI-Arch"></a>
  <a href="https://gair-nlp.github.io/ASI-Arch/"><img alt="Architectures" src="https://img.shields.io/badge/🔬-106_Architectures-blue"></a>
 </p>
@@ -15,7 +15,7 @@
 
 ## 📋 Overview
 
-This is the official repository for our work "[AlphaGo Moment for Model Architecture Discovery](https://github.com/GAIR-NLP/ASI-Arch/blob/main/resources/ASI-Arch.pdf)". We present a highly autonomous, multi-agent framework that empowers a Large Language Model (LLM) to conduct end-to-end scientific research in the challenging domain of linear attention mechanisms.
+This is the official repository for our work "[AlphaGo Moment for Model Architecture Discovery](https://arxiv.org/pdf/2507.18074)". We present a highly autonomous, multi-agent framework that empowers a Large Language Model (LLM) to conduct end-to-end scientific research in the challenging domain of linear attention mechanisms.
 
 
 - 📖 **Paper**: Read our paper (Coming Soon)
@@ -178,5 +178,13 @@ ASI-Arch is inspired by various open-source projects with its implementation bas
 Please cite this work if it contributes to your research:
 
 ```bibtex
-
+@misc{liu2025alphagomomentmodelarchitecture,
+      title={AlphaGo Moment for Model Architecture Discovery}, 
+      author={Yixiu Liu and Yang Nan and Weixian Xu and Xiangkun Hu and Lyumanshan Ye and Zhen Qin and Pengfei Liu},
+      year={2025},
+      eprint={2507.18074},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2507.18074}, 
+}
 ``` 
