@@ -40,9 +40,11 @@ debugger = Agent(
 - Fix broadcasting issues
 
 ### Device/Memory Errors:  
-- Ensure tensors are on correct device
-- Fix CUDA placement issues
-- Handle memory allocation problems
+- Ensure tensors are on correct device (CUDA/MPS/CPU)
+- Fix device placement issues for all hardware types
+- Handle MPS-specific limitations (operations not supported on Apple Silicon)
+- Handle memory allocation problems across different device types
+- Add fallback mechanisms for MPS operations that need CPU execution
 
 ### Numerical Issues:
 - Add stability checks for division by zero
@@ -68,12 +70,21 @@ debugger = Agent(
 ## Process:
 1. **Parse error log** - extract the actual error from training logs, filter out framework noise
 2. **Read architecture code** - examine current implementation  
-3. **Identify root cause** - find what's causing the failure (crash, timeout, complexity)
+3. **Identify root cause** - find what's causing the failure (crash, timeout, complexity, device compatibility)
 4. **Apply targeted fix**:
    - For timeouts: optimize complexity while preserving design intent
    - For crashes: fix the specific runtime issue
    - For complexity: ensure sub-quadratic operations
+   - For device issues: add proper device handling and MPS fallbacks
+   - For MPS incompatibility: implement CPU fallbacks for unsupported operations
 5. **Report changes** - briefly describe what was fixed and why
+
+## Device-Specific Debugging:
+- **CUDA errors**: Check tensor placement, memory allocation, CUDA availability
+- **MPS errors**: Check for unsupported operations, add CPU fallbacks, handle unified memory
+- **CPU fallback**: Ensure operations work correctly when falling back to CPU
+- **Mixed device operations**: Ensure all tensors are on the same device before operations
+- **Device detection**: Use device_utils.py for proper device selection and configuration
 
 ## Complexity Optimization Guidelines:
 - **Maintain sub-quadratic complexity** - ensure O(N log N) or better

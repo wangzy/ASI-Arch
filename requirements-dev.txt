@@ -1,0 +1,30 @@
+# Optional Development Dependencies
+# Install with: pip install -r requirements-dev.txt
+
+# Code formatting and linting
+black>=22.0.0
+isort>=5.0.0
+flake8>=6.0.0
+
+# Testing framework
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+
+# Development tools
+GitPython>=3.1.44
+gitdb>=4.0.12
+smmap>=5.0.2
+
+# Documentation generation
+griffe>=1.7.3
+
+# Type checking
+mypy>=1.0.0
+
+# Documentation dependencies
+markdown-it-py>=3.0.0
+mdurl>=0.1.2
+
+# Development utilities
+decorator>=5.2.1

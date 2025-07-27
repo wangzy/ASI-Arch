@@ -1,0 +1,93 @@
+# Documentation and temporary files that should not be committed
+CLAUDE.md
+plan.md
+PHASE*.md
+FINAL_IMPLEMENTATION_SUMMARY.md
+INSTALLATION.md
+
+# Python cache and environment files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Logs and temporary files
+*.log
+*.pid
+*.tmp
+*.temp
+nohup.out
+
+# Database and service files
+database_api.log
+rag_api.log
+database_api.pid
+rag_api.pid
+stop_services.sh
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Experiment and model outputs
+experiments/
+models/
+checkpoints/
+runs/
+wandb/
+
+# Docker volumes and data
+data/
+docker-data/

@@ -1,0 +1,33 @@
+# Optional Training and Monitoring Dependencies
+# Install with: pip install -r requirements-training.txt
+
+# Distributed training (if needed)
+ray>=2.46.0
+
+# Experiment tracking
+wandb>=0.20.1
+
+# PyTorch Lightning for training
+pytorch-lightning>=2.5.1
+lightning-utilities>=0.14.3
+torchmetrics>=1.7.2
+
+# Performance monitoring
+sentry-sdk>=2.29.1
+
+# Advanced networking (for distributed training)
+grpcio>=1.72.1
+
+# Ninja build system (for faster compilation)
+ninja>=1.11.1.4
+
+# Data streaming
+datasets>=3.6.0
+dill>=0.3.8
+multiprocess>=0.70.16
+
+# Cloud storage support
+cloudpickle>=3.1.1
+
+# System monitoring
+xxhash>=3.5.0

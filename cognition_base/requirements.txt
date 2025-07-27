@@ -1,9 +1,40 @@
+# Cognition Base RAG Service Dependencies (Minimal Set)
+
+# OpenSearch for vector database
 opensearch-py>=2.0.0
+
+# Sentence transformers for embeddings
 sentence-transformers>=2.2.0,<2.3.0
-torch>=1.13.0
+
+# Core ML framework (Universal PyTorch - supports CUDA/MPS/CPU)
+torch>=2.6.0
 numpy>=1.21.0
+
+# HuggingFace transformers
 transformers>=4.21.0,<5.0.0
 huggingface-hub>=0.10.0,<0.17.0
+tokenizers>=0.13.0
+
+# Machine learning utilities
 scikit-learn>=1.1.0
+
+# Web framework
 flask>=2.0.0
-flask-cors>=3.0.0 
+flask-cors>=3.0.0
+
+# HTTP and utilities
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Data handling
+tqdm>=4.60.0
+regex>=2023.0.0
+
+# File handling and serialization
+PyYAML>=6.0.0
+safetensors>=0.3.0
+
+# Essential utilities
+packaging>=21.0
+filelock>=3.0.0
+certifi>=2021.0.0

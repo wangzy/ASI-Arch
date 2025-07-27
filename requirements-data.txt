@@ -1,0 +1,25 @@
+# Optional Data Science Dependencies
+# Install with: pip install -r requirements-data.txt
+
+# Data analysis and visualization
+pandas>=2.3.0
+matplotlib>=3.10.3
+seaborn>=0.13.2
+scipy>=1.15.3
+
+# Plotting dependencies
+contourpy>=1.3.2
+cycler>=0.12.1
+fonttools>=4.58.2
+kiwisolver>=1.4.8
+pyparsing>=3.2.3
+
+# Arrow format for data exchange
+pyarrow>=20.0.0
+
+# Symbolic mathematics (if needed for analysis)
+sympy>=1.13.1
+mpmath>=1.3.0
+
+# Additional plotting utilities
+pillow>=11.2.1
